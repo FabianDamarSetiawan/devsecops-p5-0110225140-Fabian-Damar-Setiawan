@@ -49,6 +49,4 @@ jobs:
 
       - name: Run Bandit SAST Scan
         run: |
-          # Menjalankan Bandit untuk pemindaian kerentanan keamanan kode Python
-          # Menggunakan -l agar Quality Gate hanya gagal pada tingkat keparahan High
           bandit -r . -l
